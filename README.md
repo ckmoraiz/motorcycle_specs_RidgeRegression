@@ -16,4 +16,5 @@ The results are ilustrated below:
 P.S.: The final app.py script need further debugging process, since the implementation of encoding in the input of new data failed. 
 This happenned because the encoder was defined in another script, in a way that the input data it's not processed in the proper way. 
 
-This can be corrected by importing the same encoder and arranging the data structure properly. This will be done in the future. Maybe. Probably not.
+This can be corrected by importing the same encoder and arranging the data structure properly. This will be done in the future. Maybe. Probably not. :see_no_evil:
+
