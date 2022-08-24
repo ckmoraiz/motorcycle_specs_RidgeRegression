@@ -31,9 +31,9 @@ cooling = input(int)
 X = [[cylinder, bore, stroke, cooling]]
 
 
-# scaler = MinMaxScaler()
-# X = scaler.fit_transform(X)
-# X = X.reshape( -1, 4)
+scaler = MinMaxScaler()
+X = scaler.fit_transform(X)
+
 X = pd.DataFrame(X, columns=['Engine cylinder', 'Bore (mm)', 'Stroke (mm)', 'Cooling system'])
 
 X = onehotencoder.transform(X)
